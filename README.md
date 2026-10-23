@@ -34,12 +34,7 @@
 </td>
 <td width="50%" valign="top">
 
-```text
-JavaScript           ▰▰▰▰▰▰▱▱▱▱  Lv 6
-TypeScript           ▰▰▰▰▱▱▱▱▱▱  Lv 4
-UX and game design   ▰▰▰▰▰▰▰▰▱▱  Lv 8
-Backend (Supabase)   ▰▰▰▱▱▱▱▱▱▱  Lv 3
-```
+<img src="assets/skills.svg" width="100%" alt="Skills: JavaScript Lv 6, TypeScript Lv 4, UX and game design Lv 8, Backend (Supabase) Lv 3" />
 
 </td>
 </tr>

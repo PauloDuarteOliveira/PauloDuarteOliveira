@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-label="Skills: JavaScript level 6, TypeScript level 4, UX and game design level 8, Backend (Supabase) level 3">
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 15px; font-weight: 600; fill: #AFA9EC; }
+    .label { font-size: 13px; fill: #D3D1C7; }
+    .lv { font-size: 12px; fill: #888780; }
+    .fill { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow 1.2s ease-out forwards; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.3s; } .d3 { animation-delay: 0.5s; } .d4 { animation-delay: 0.7s; }
+    @keyframes grow { to { transform: scaleX(1); } }
+  </style>
+
+  <rect width="400" height="200" rx="10" fill="#1a1a19"/>
+  <text x="20" y="30" class="title">Skill tree</text>
+
+  <text x="20" y="60" class="label">JavaScript</text>
+  <text x="380" y="60" class="lv" text-anchor="end">Lv 6</text>
+  <rect x="20" y="67" width="360" height="7" rx="3.5" fill="#444441"/>
+  <rect x="20" y="67" width="216" height="7" rx="3.5" fill="#FAC775" class="fill d1"/>
+
+  <text x="20" y="96" class="label">TypeScript</text>
+  <text x="380" y="96" class="lv" text-anchor="end">Lv 4</text>
+  <rect x="20" y="103" width="360" height="7" rx="3.5" fill="#444441"/>
+  <rect x="20" y="103" width="144" height="7" rx="3.5" fill="#378ADD" class="fill d2"/>
+
+  <text x="20" y="132" class="label">UX and game design</text>
+  <text x="380" y="132" class="lv" text-anchor="end">Lv 8</text>
+  <rect x="20" y="139" width="360" height="7" rx="3.5" fill="#444441"/>
+  <rect x="20" y="139" width="288" height="7" rx="3.5" fill="#AFA9EC" class="fill d3"/>
+
+  <text x="20" y="168" class="label">Backend (Supabase)</text>
+  <text x="380" y="168" class="lv" text-anchor="end">Lv 3</text>
+  <rect x="20" y="175" width="360" height="7" rx="3.5" fill="#444441"/>
+  <rect x="20" y="175" width="108" height="7" rx="3.5" fill="#5DCAA5" class="fill d4"/>
+</svg>

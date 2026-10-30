@@ -69,8 +69,14 @@
 ## 📊 Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=PauloDuarteOliveira&show_icons=true&hide_border=true&bg_color=1a1a19&title_color=AFA9EC&text_color=D3D1C7&icon_color=5DCAA5&ring_color=AFA9EC&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PauloDuarteOliveira&layout=compact&hide_border=true&bg_color=1a1a19&title_color=AFA9EC&text_color=D3D1C7" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/3-stats.svg" />
+    <img height="180" src="profile-summary-card-output/github/3-stats.svg" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+    <img height="180" src="profile-summary-card-output/github/2-most-commit-language.svg" alt="Top languages" />
+  </picture>
 </p>
 
 <p align="center">

@@ -1,4 +1,4 @@
-<!-- Banner -->
+[<!-- Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:26215C,100:534AB7&height=200&section=header&text=Paulo%20Oliveira&fontSize=48&fontColor=EEEDFE&fontAlignY=38&desc=Game%20designer%20%E2%80%A2%20Web%20developer%20%E2%80%A2%20Builder%20of%20playful%20things&descSize=16&descAlignY=58" width="100%" alt="Paulo Oliveira banner" />
 
 <!-- Typing intro -->
@@ -86,3 +86,4 @@
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:534AB7,100:26215C&height=100&section=footer" width="100%" alt="" />
+](https://github.com/PauloDuarteOliveira)

@@ -1,18 +1,20 @@
-[<!-- Banner -->
+<!-- Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:26215C,100:534AB7&height=200&section=header&text=Paulo%20Oliveira&fontSize=48&fontColor=EEEDFE&fontAlignY=38&desc=Game%20designer%20%E2%80%A2%20Web%20developer%20%E2%80%A2%20Builder%20of%20playful%20things&descSize=16&descAlignY=58" width="100%" alt="Paulo Oliveira banner" />
 
 <!-- Typing intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5DCAA5&center=true&vCenter=true&width=600&lines=%3E+Turning+game+ideas+into+web+apps;%3E+Currently+building+WhoAmI;%3E+Learning+full-stack+JavaScript+%40+UPskill" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5DCAA5&center=true&vCenter=true&width=600&lines=%3E+Turning+game+ideas+into+web+apps;%3E+Beta-testing+WhoAmI%2C+a+multiplayer+party+game;%3E+Learning+full-stack+JavaScript+%40+UPskill" alt="Typing intro" />
 </p>
 
 <!-- Tech badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Game%20Design-7F77DD?style=for-the-badge&logoColor=white" alt="Game design" />
 </p>
@@ -27,7 +29,7 @@
 
 **Class:** Game designer → full-stack developer<br/>
 **Guild:** UPskill, JavaScript track<br/>
-**Current quest:** Ship **WhoAmI**<br/>
+**Current quest:** Beta-test **WhoAmI** with friends<br/>
 **Side quest:** Grow **Unheard**<br/>
 **Special ability:** Designing things people want to come back to
 
@@ -46,9 +48,21 @@
 
 | | Project | Status | Description | Links |
 |:-:|---|---|---|---|
-| 🎭 | **[WhoAmI](https://github.com/PauloDuarteOliveira/whoami)** | 🟡 In progress | A guessing game web app built with TypeScript and Supabase. | [Play demo](https://pauloduarteoliveira.github.io/whoami/) |
+| 🎭 | **[WhoAmI](https://github.com/PauloDuarteOliveira/whoami)** | 🧪 Beta | A multiplayer party game: everyone knows the character on your forehead except you. Live rooms with QR invites, timers, sound cues, Voice mode, accounts with Google and Discord. Built with Angular and Supabase. | [Try the beta](https://pauloduarteoliveira.github.io/whoami/) |
 | 🎧 | **[Unheard](https://github.com/PauloDuarteOliveira/unheard)** | 🟢 Live | Helps you build the habit of discovering new music. | [Try it](https://pauloduarteoliveira.github.io/unheard/) |
 | 📚 | **[UpSkill ServiceNow Hub](https://github.com/PauloDuarteOliveira/UpSkill-ServiceNow-Hub)** | 🔵 Study | Study hub for the UPskill ServiceNow track. | [View repo](https://github.com/PauloDuarteOliveira/UpSkill-ServiceNow-Hub) |
+
+<details>
+<summary><b>🎭 What went into WhoAmI</b></summary>
+<br>
+
+- **Real-time multiplayer** with Supabase Realtime: votes, turns and guesses arrive live on every device, with polling as a safety net.
+- **Secure by design**: Row Level Security on every table, keys injected from GitHub secrets at build time.
+- **Shaped by playtests**: a turn timer that pauses for votes, auto-closing votes, voter faces, sound cues, Play again in the same room, Spectators and a real Voice mode all came from games with friends.
+- **Any screen**: desktop, tablet and phone layouts, Day and Night themes.
+- **CI/CD**: every pull request is linted and built, every merge deploys to GitHub Pages.
+
+</details>
 
 ---
 
@@ -86,4 +100,3 @@
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:534AB7,100:26215C&height=100&section=footer" width="100%" alt="" />
-](https://github.com/PauloDuarteOliveira)
